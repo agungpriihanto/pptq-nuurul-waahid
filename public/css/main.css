@@ -1,0 +1,226 @@
+.navbar {
+    background: #144272 !important;
+    box-sizing: border-box;
+    opacity: 0.95;
+}
+
+.tagline,
+.link {
+    background: #144272 !important;
+}
+
+.nav-item {
+    border-bottom: 2px solid #144272 !important;
+    transition: 0.3s;
+}
+
+.nav-item:hover {
+    border-bottom: 1px solid #fdff00 !important;
+    box-sizing: border-box;
+}
+
+.nav-item .active {
+    border-bottom: 2px solid #fdff00 !important;
+    box-sizing: border-box;
+}
+
+.toggler-icon {
+    color: white !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+}
+
+.btn-close {
+    color: #fff !important;
+}
+
+.dropdown:focus,
+.dropdown-toggle:focus {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.dropdown-menu {
+    background: #144272;
+}
+
+.dropdown-item:hover {
+    background: #6d6d00;
+}
+
+.nav-item ul li {
+    list-style: none !important;
+}
+
+.carousel-item {
+    height: 60vh;
+}
+
+.carousel-item.slider1 {
+    background: url(../img/slider/1.jpg);
+    background-size: cover;
+    background-position: 0 -420px;
+    background-repeat: no-repeat;
+}
+
+.carousel-item.slider2 {
+    background: url(../img/slider/2.jpg);
+    background-size: cover;
+    background-position: 0 -320px;
+    background-repeat: no-repeat;
+}
+
+.tentang h3::after {
+    content: "";
+    display: block;
+    margin-top: 20px;
+    width: 70%;
+    height: 10px;
+    border-radius: 5px;
+    background: #0062ca;
+}
+
+.foto-program1,
+.foto-program2 {
+    height: 270px;
+    margin: 10px 0;
+}
+
+.foto-program1 {
+    background: url(../img/program/program1.jpg);
+    background-position: 0 -10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foto-program2 {
+    background: url(../img/program/program2.jpg);
+    background-position: 0 -20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-posts {
+    height: 420px !important;
+}
+
+.card-head {
+    overflow: hidden;
+}
+
+.card-head img {
+    transition: 0.4s ease;
+}
+
+.card-head:hover img {
+    transform: scale(1.1);
+}
+
+.berita .btn-outline-success {
+    color: #3e9cff !important;
+    border: 1px solid #3e9cff !important;
+}
+
+.berita .btn-outline-success:hover {
+    background: #327dcc !important;
+    color: #fff !important;
+}
+
+.lokasi iframe {
+    border: 0;
+    width: 60%;
+    height: 300px;
+}
+
+.link,
+.link a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link h5 {
+    font-size: 22px;
+}
+
+.footer p {
+    font-size: 14px !important;
+}
+
+@media (max-width: 768px) {
+    .nav-item {
+        border-bottom: none !important;
+    }
+    .nav-item:hover {
+        border-bottom: none !important;
+    }
+    .dropdown-item {
+        list-style: armenian;
+    }
+    .dropdown-item:hover {
+        background: none !important;
+    }
+    .nav-item .active {
+        border-bottom: 2px solid #fdff00 !important;
+        box-sizing: border-box;
+    }
+
+    .carousel-item.slider1 {
+        background: url(../img/slider/1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .carousel-item.slider2 {
+        background: url(../img/slider/2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .foto-program1 {
+        background: url(../img/slider/1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .foto-program2 {
+        background: url(../img/slider/2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .foto-program3 {
+        background: url(../img/slider/2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .lokasi p {
+        display: inline !important;
+    }
+
+    .lokasi img {
+        display: block !important;
+    }
+
+    .lokasi iframe {
+        border: 0;
+        width: 90%;
+        height: 300px;
+    }
+}
